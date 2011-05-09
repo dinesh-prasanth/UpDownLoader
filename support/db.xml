@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="iso-8859-1">
+<files>
+	<file><name>sample1.jpg</name><password>sample1</password><size>34</size></file>
+	<file><name>sample2.gif</name><password>sample2</password><size>27</size></file>
+</files>

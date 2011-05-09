@@ -1,0 +1,35 @@
+django-admin.py startproject mysite
+
+python manage.py runserver
+
+python manage.py runserver 0.0.0.0:8000
+
+python manage.py syncdb
+
+python manage.py sql polls
+
+python manage.py shell
+
+from polls.models import Poll, Choice
+
+Poll.objects.all()
+
+import datetime
+
+p = Poll(question="What's up?", pub_date=datetime.datetime.now())
+
+p.save()
+
+p.id
+
+p.question
+
+p.pub_date
+
+p.pub_date = datetime.datetime(2007, 4, 1, 0, 0)
+
+p.save()
+
+Poll.objects.all()
+
+
