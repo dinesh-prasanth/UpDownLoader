@@ -1,5 +1,5 @@
 <html>
-<head><title>Anti Pendrive Fun</title></head>
+<head><title>UpDownLoader</title></head>
 <link rel="shortcut icon" href="images/favicon.ico" >
 <?php 
 //include supports
